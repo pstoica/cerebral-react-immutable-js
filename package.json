@@ -1,0 +1,40 @@
+{
+  "name": "cerebral-react-immutable-js",
+  "version": "0.0.1",
+  "description": "A Cerebral package for React and ImmutableJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --devtool eval --progress --colors --content-base build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pstoica/cerebral-react-immutable-js.git"
+  },
+  "keywords": [
+    "react",
+    "immutable",
+    "cerebral"
+  ],
+  "author": "Patrick Stoica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pstoica/cerebral-react-immutable-js/issues"
+  },
+  "homepage": "https://github.com/pstoica/cerebral-react-immutable-js",
+  "peerDependencies": {
+    "react": "^0.13.3",
+    "immutable": "^3.7.4"
+  },
+  "dependencies": {
+    "cerebral": "^0.15.0",
+    "fbemitter": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.20",
+    "babel-loader": "^5.3.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
